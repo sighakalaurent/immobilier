@@ -5,6 +5,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
 import Offers from "./pages/Offers";
+import PlaceAnAd from "./pages/PlaceAnAd";
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/sign-in" element={<SignIn />}></Route>
         <Route path="/sign-up" element={<SignUp />}></Route>
+        <Route path="/sign-up" element={<PlaceAnAd />}></Route>
         <Route path="/forgot-password" element={<ForgotPassword />}></Route>
         <Route path="/offers" element={<Offers />}></Route>
-        
+
 
 
       </Routes>
